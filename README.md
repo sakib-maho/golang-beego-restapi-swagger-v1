@@ -18,6 +18,13 @@ static OpenAPI documentation.
 - Static OpenAPI spec at `/swagger/openapi.json`
 - Legacy Beego scaffold preserved under `legacy/`
 
+## Quick Start
+
+```bash
+cp .env.example .env
+go run ./cmd/server
+```
+
 ## Endpoints
 
 - `GET /health`
@@ -26,13 +33,6 @@ static OpenAPI documentation.
 - `GET /api/v1/tasks/{taskID}`
 - `PUT /api/v1/tasks/{taskID}`
 - `DELETE /api/v1/tasks/{taskID}`
-
-## Run
-
-```bash
-cp .env.example .env
-go run ./cmd/server
-```
 
 ## Docs
 
