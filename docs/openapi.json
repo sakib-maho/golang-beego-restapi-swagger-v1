@@ -1,0 +1,62 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Task API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Health response"
+          }
+        }
+      }
+    },
+    "/api/v1/tasks": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Task list"
+          }
+        }
+      },
+      "post": {
+        "responses": {
+          "201": {
+            "description": "Task created"
+          }
+        }
+      }
+    },
+    "/api/v1/tasks/{taskID}": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Task details"
+          }
+        }
+      },
+      "put": {
+        "responses": {
+          "200": {
+            "description": "Task updated"
+          }
+        }
+      },
+      "delete": {
+        "responses": {
+          "204": {
+            "description": "Task deleted"
+          }
+        }
+      }
+    }
+  }
+}

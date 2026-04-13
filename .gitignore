@@ -33,3 +33,4 @@ venv/
 dist/
 build/
 *.egg-info/
+legacy/beego-api/lastupdate.tmp
