@@ -1,5 +1,12 @@
 # Go Task API + Swagger (v1)
 
+<!-- BrandCloud:readme-standard -->
+[![Maintained](https://img.shields.io/badge/Maintained-yes-brightgreen.svg)](#)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Showcase](https://img.shields.io/badge/Portfolio-Showcase-blue.svg)](#)
+
+_Part of the `sakib-maho` project showcase series with consistent documentation and quality standards._
+
 This repository is upgraded into a clean Go REST API starter with a task CRUD service and
 static OpenAPI documentation.
 
